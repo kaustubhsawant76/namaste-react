@@ -13,11 +13,11 @@
     </div>
     <h1>this is below root</h1> <!--will be executed without being replaced -->
 
-
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- now no longer we need cdn because we are installing react and react-dom through npm  -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
     
-    <script src="./App.js"></script>
+    <script type="module" src="./App.js"></script>
     
     <!-- // // <! <script>  //HTML IS INJECTED USING JAVASCRIPT USING FOLLOWING METHOD -->
     <!-- // //     const heading=document.createElement("h1");
