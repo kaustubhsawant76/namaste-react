@@ -4,6 +4,8 @@
   "description": "this contains namaste react",
   
   "scripts": {
+    "start":"parcel index.html",
+    "build":"parcel build index.html",
     "test": "jest"
   },
   "repository": {
