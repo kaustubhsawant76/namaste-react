@@ -112,3 +112,6 @@
  //react element can be inserted in react element by using {var} where var is variable name
  //JSX prevents cross site scripting attacks if malicious api or js passes through {}
  //IN react component <component /> is as same as <component></component>
+
+
+
